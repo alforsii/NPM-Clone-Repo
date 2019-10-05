@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+*{
+  margin: 0;
+  padding: 0;
+ }
+ body {
+   font-family: 'Poppins';     
+   padding-bottom: 100px;
+   margin-right: 0.5em;
+   border-top: 2px solid red;
+   background-color: rgb(246, 248, 246);
+ }
+ 
+ .header div {
+     padding: 5px 5px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-bottom: 1px solid rgba(170, 173, 177, 0.384);
+     margin: 0 0.3em;
+   }
+   .header form{
+     padding: 0 ;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;     
+     margin: 0 1.7em;
+   }
+  
+   .npm-logo{
+     width: 65px;
+   }
+   .search-bar{
+     width: 20px;
+     background-color:rgb(248, 247, 247); 
+     padding: 10px;
+   }
+  
+   form input{
+     width: 800px;
+     padding: 8px;
+      background-color: rgb(248, 247, 247);
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 20px;
+     border: none;
+ 
+   }
+   .f-btn1{
+     text-decoration: none;
+     padding: 8px 30px;
+     border: 0 solid rgb(241, 105, 105); 
+     background-color: red;
+     margin: 0;
+     color: white;
+      
+   }
+   .f-btn2{
+     text-decoration: none;
+     padding: 5px 10px;;
+     border: 1px solid rgb(129, 119, 119); 
+     color: black; 
+   }
+   .f-btn3{
+     text-decoration: none;
+     color: black; 
+   }
+ 
+   nav {
+     width: 600px;
+   }
+   
+   nav ul {
+     font-family: 'Times New Roman', Times, serif;
+     font: bold;
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     
+   }
+   
+   nav a {
+     text-decoration: none;
+     color: black;
+     
+   } 
+   
+   .blackHeart {
+     width: 20px;
+     margin-right: 1rem;
+   }
+
+
+   /* --------------Sec1---------------- */
+   .sec1{
+     background-color: rgb(243, 239, 233);
+     height: 700px;
+      display: flex;
+      flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center; 
+     text-decoration: none;
+   }
+   
+   .sec1 p{
+   font-size: 1em;
+   text-align: center;
+   padding: 0 27%;
+   }
+   
+   .sec1 h1{
+     font-size: 5em; 
+   }
+   .sec1 h5{
+   font-size: 1.3em;
+   text-align: center;
+   padding: 0 25%;
+   }
+   .sec1-btn1{
+     font-size: 1.5em;
+     text-decoration: none;
+     padding: 20px 75px;;
+     border: 0 solid rgb(241, 105, 105); 
+     background-color: red;
+     background-blend-mode: color;
+     margin-left: 20px;  
+     color: white;
+      
+   }
+   .sec1-btn2{
+     font-size: 1.5em;
+     text-decoration: none;
+     padding: 20px 65px;;
+     border: 0 solid rgb(241, 105, 105); 
+     background-color: white;
+     margin: 0 20px;  
+     color: black; 
+   }
+   .sec1-btn3{
+      margin-left: 500px;
+    
+   }
+   .sec1 span {
+     color: red;
+     text-decoration: underline red;
+   }
+   
+   /* --------------Sec2---------------- */
+   .sec2{
+     background-color: rgb(246, 248, 246);
+     height: 600px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     
+   }
+   .sec2 img{
+     width: 250px;
+     position: relative;
+     left: 350px;
+   }
+   .sec2 h2{
+     font-size: 2.5em;
+     margin: 25px 0;
+   }
+   .sec2 p{
+     text-align: center;
+     padding: 0 auto;
+     margin: 0 170px;;
+    
+    }
+   .sec2 button{
+     padding: 5px 13px;
+     background-color: rgba(1, 1, 24, 0.692);
+     color: #ccc;
+     border-radius: 15px;
+     font-size: 15px;
+   }
+   /* --------------Sec3---------------- */
+   .sec3 { 
+     display: flex;
+     justify-content: space-between;
+     background-color: rgb(246, 248, 246);
+     margin: 0 100px;
+   }
+   .sec3 div{
+   margin: 0 15px;
+    padding-bottom: 25px ;
+
+    }
+   .sec3 img{
+     width: 40px;  
+      
+   }
+   .sec3 p{
+     font-size: 13px;
+       line-height: 1.8em;
+       font-weight: 300;
+   }
+   .sec3 h4{
+     font-size: 15px;
+     color: red;  
+   }
+
+   .footer{
+     display: flex;
+     justify-content: center;
+     align-items: center;  
+     margin: 25px 0;  
+   }
+   .footer a{
+     font-size: 1.3em;
+     text-decoration: none;
+     color: white;
+     padding: 10px 100px;
+     background-color: rgba(8, 8, 8, 0.959);  
+   }
+  
+   
+
+
